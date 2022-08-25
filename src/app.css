@@ -1,0 +1,37 @@
+.dark {
+  background-color: rgb(57, 57, 57);
+  transition: 0.3s;
+}
+.dark > * {
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 300;
+  margin: 50px 0 10px 0;
+}
+
+p {
+  margin: 0px;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(162, 0, 255);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.dark a {
+  color: rgb(246, 169, 241);
+}

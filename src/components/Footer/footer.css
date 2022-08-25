@@ -1,0 +1,21 @@
+.app__footer {
+  background-color: #faf9f6;
+  padding: 100px 30px;
+}
+.app__footer .footer-text {
+  text-align: center;
+  font-weight: 200;
+}
+.app__footer-links {
+  display: flex;
+  justify-content: center;
+}
+.app__footer-links p {
+  padding: 1rem;
+}
+.dark .app__footer {
+  background-color: rgba(52, 50, 50, 0.462);
+}
+.myMail {
+  font-weight: 400;
+}
